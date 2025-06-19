@@ -52,7 +52,7 @@ public class Volontario implements CheckIn {
     }
 
 
-    public void CheckIn() {
+    public void turno() {
         System.out.println("Checkin eseguito alle 14:00 ");
     }
 }

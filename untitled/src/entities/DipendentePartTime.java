@@ -10,6 +10,10 @@ public class DipendentePartTime extends Dipendente {
         this.pagaOraria = pagaOraria;
     }
 
+    public void turno() {
+        System.out.println("Checkin eseguito alle 10:00 ");
+    }
+
     @Override
     public double calculateSalary() {
         return oreLavorate * pagaOraria;

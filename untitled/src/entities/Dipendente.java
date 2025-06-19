@@ -30,8 +30,8 @@ public abstract class Dipendente implements CheckIn {
     }
 
 
-    public void CheckIn() {
-        System.out.println("Checkin eseguito alle 14:00 ");
+    public void turno() {
+        System.out.println("Checkin eseguito alle 8:00 ");
     }
 
     public abstract double calculateSalary();

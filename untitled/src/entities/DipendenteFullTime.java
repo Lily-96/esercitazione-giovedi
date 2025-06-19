@@ -5,6 +5,10 @@ public class DipendenteFullTime extends Dipendente {
         super(matricola, stipendio, Dipartimento);
     }
 
+    public void turno() {
+        System.out.println("Checkin eseguito alle 8:00 ");
+    }
+
     @Override
     public double calculateSalary() {
         return getStipendio();
